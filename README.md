@@ -36,3 +36,7 @@ python main.py --network_header_type=nature --env_name=average_dqn_10_and_target
 
 code for reproduction of multi agent experiment:
 python main.py --network_header_type=nature --env_name=multi_agent_target_decay --target_q_update_freq_decay=1.1 --use_gpu=True --ple=True --gpu_fraction 4/5 --display=True --memory_size=10 --ple_agents=2 --network_output_type='normal' --t_ep_end=4000 --GPU_to_use='0'
+
+# based on
+deep-rl-tensorflow
+gym-ple
