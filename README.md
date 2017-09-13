@@ -3,10 +3,15 @@ This repository is a project for the DL course in the Technion
 
 # Requirements
 Python 2.7
+
 gym
+
 tqdm
+
 OpenCV2 or Scipy
+
 TensorFlow 0.12.0
+
 PyGame-Learning-Environment - https://github.com/ntasfi/PyGame-Learning-Environment
 
 # Installation
