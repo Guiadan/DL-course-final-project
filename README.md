@@ -19,6 +19,8 @@ find versions:
 
 curl -s https://storage.googleapis.com/tensorflow |xmllint --format - |grep whl|grep gpu|grep linux|grep cp2
 
+choose the correct version from that list and copy it, in the next command replace <VERSION> with it
+
 install:
 
 sudo pip install https://storage.googleapis.com/tensorflow/linux/<VERSION>
@@ -30,7 +32,7 @@ sudo pip install https://storage.googleapis.com/tensorflow/linux/<VERSION>
 
 3) copy all py/pyc files except ple.py from this repo to PyGame-Learning-Environment/ple/games/
 
-4) copy ple.py from this repo to PyGame-Learning-Environment/
+4) copy ple.py from this repo to PyGame-Learning-Environment/ple/
 
 5) now, from PyGame-Learning-Environment do: sudo pip install .
 
@@ -52,6 +54,13 @@ python main.py --network_header_type=nature --env_name=average_dqn_10_and_target
 code for reproduction of multi agent experiment:
 
 python main.py --network_header_type=nature --env_name=multi_agent_target_decay --target_q_update_freq_decay=1.1 --use_gpu=True --ple=True --gpu_fraction 4/5 --display=True --memory_size=10 --ple_agents=2 --network_output_type='normal' --t_ep_end=4000 --GPU_to_use='0'
+
+# based on
+to see graph, from the deep-rl-tensorflow dir, in the command line type:
+
+tensorboard --logdir=logs/
+
+and copy the ip to the browser
 
 # based on
 deep-rl-tensorflow
