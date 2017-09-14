@@ -14,6 +14,15 @@ TensorFlow 0.12.0
 
 PyGame-Learning-Environment - https://github.com/ntasfi/PyGame-Learning-Environment
 
+# TensorFlow Installation
+find versions:
+
+curl -s https://storage.googleapis.com/tensorflow |xmllint --format - |grep whl|grep gpu|grep linux|grep cp2
+
+install:
+
+sudo pip install https://storage.googleapis.com/tensorflow/linux/<VERSION>
+
 # Installation
 1) clone this repository
 
