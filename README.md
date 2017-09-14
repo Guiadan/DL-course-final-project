@@ -16,13 +16,12 @@ PyGame-Learning-Environment - https://github.com/ntasfi/PyGame-Learning-Environm
 
 # Installation
 clone this repository
-in the directory where PyGame-Learning-Environment is installed copy the following files:
-multiagentpuckworld.py
-multiagentpuckworld.pyc
-puckworld.py
-puckworld.pyc
-to $PATH/PyGame-Learning-Environment/ple/games/
-replace existing files
+go to the PyGame-Learning-Environment and clone it - don't use pip install yet
+copy all py/pyc files except ple.py from this repo to PyGame-Learning-Environment/ple/games/
+copy ple.py from this repo to PyGame-Learning-Environment/
+now, from PyGame-Learning-Environment do: sudo pip install .
+
+to run the following scripts go to this repo deep-rl-tensorflow dir and copy the relevant command 
 
 # reproducing results:
 code for reproduction of target update decay:
