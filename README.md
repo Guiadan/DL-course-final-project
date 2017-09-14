@@ -16,9 +16,13 @@ PyGame-Learning-Environment - https://github.com/ntasfi/PyGame-Learning-Environm
 
 # Installation
 clone this repository
+
 go to the PyGame-Learning-Environment and clone it - don't use pip install yet
+
 copy all py/pyc files except ple.py from this repo to PyGame-Learning-Environment/ple/games/
+
 copy ple.py from this repo to PyGame-Learning-Environment/
+
 now, from PyGame-Learning-Environment do: sudo pip install .
 
 to run the following scripts go to this repo deep-rl-tensorflow dir and copy the relevant command 
