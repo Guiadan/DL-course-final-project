@@ -15,17 +15,17 @@ TensorFlow 0.12.0
 PyGame-Learning-Environment - https://github.com/ntasfi/PyGame-Learning-Environment
 
 # Installation
-clone this repository
+1) clone this repository
 
-go to the PyGame-Learning-Environment and clone it - don't use pip install yet
+2) go to the PyGame-Learning-Environment and clone it - don't use pip install yet
 
-copy all py/pyc files except ple.py from this repo to PyGame-Learning-Environment/ple/games/
+3) copy all py/pyc files except ple.py from this repo to PyGame-Learning-Environment/ple/games/
 
-copy ple.py from this repo to PyGame-Learning-Environment/
+4) copy ple.py from this repo to PyGame-Learning-Environment/
 
-now, from PyGame-Learning-Environment do: sudo pip install .
+5) now, from PyGame-Learning-Environment do: sudo pip install .
 
-to run the following scripts go to this repo deep-rl-tensorflow dir and copy the relevant command 
+6) to run the following scripts go to this repo deep-rl-tensorflow dir and copy the relevant command 
 
 # reproducing results:
 code for reproduction of target update decay:
@@ -48,3 +48,5 @@ python main.py --network_header_type=nature --env_name=multi_agent_target_decay 
 deep-rl-tensorflow
 
 gym-ple
+
+PyGame-Learning-Environment
